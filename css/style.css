@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	width:900px;
+	height:auto;
+	margin:0px auto;
+	padding:0px;
+	background-color: #012c23;
+	background-image:url(../images/bkgpage.jpg);	
+	background-repeat:repeat-x;
+}
+
+img {
+	border:none;
+	margin:0;
+}
+
+/* Safari */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	body { 
+		width:900px;
+		height:auto;
+		margin:0px auto;
+		padding:0px;
+		background-color: #012c23;
+		background-image:url(../images/bkgpage.jpg);	
+		background-repeat:repeat-x;
+	}
+}
+
+#header {
+	width:900px;
+	height:247px;
+	background-image:url(../images/header.jpg);	
+}
+
+#home a {
+	display:block;
+	width:820px;
+	height:220px;
+	margin:15px 0 0 40px;
+	position:absolute;
+}
+
+#bannerLeft a {
+	display:block;
+	width:130px;
+	height:130px;
+	position:absolute;
+	margin:100px 0 0 -130px;
+	background-image:url(../images/banner_info.jpg);
+}
+
+#bannerRight a {
+	display:block;
+	width:130px;
+	height:130px;
+	position:absolute;
+	margin:100px 0 0 900px;
+	background-image:url(../images/banner_specials.jpg);
+}
+
+#tabs {
+	position:absolute;
+	margin-left:50px;
+	margin-top:245px;
+}
+
+#boxCenter {
+	width:900px;
+	height:auto;
+	background-image:url(../images/box_center.jpg);
+	padding-top:10px;
+}
+
+#boxBottom {
+	width:900px;
+	height:25px;
+	background-image:url(../images/box_bottom.jpg);
+}
+
+#footer {
+	width:900px;
+	height:auto;
+	text-align:center;
+	padding-bottom:10px;
+}
+
+#footer p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#ffffff;
+	margin:0px;
+}
+
+#frame {
+	width:798px;
+	height:auto;
+	margin-left:50px;
+}
+#frame .col {
+	width:370px;
+	height:auto;
+	float:left;
+	margin-left:15px;
+	padding-left:5px;
+}
+#frame .col-large {
+	width:760px;
+	height:auto;
+	float:left;
+	margin-left:15px;
+	margin-bottom:20px;
+	padding-left:5px;
+}
+#frame h1 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#FFFFFF;
+	margin:0px;
+	text-transform:uppercase;
+}
+#frame p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+}
+#frame img {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+#frame ul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	list-style:none;
+}
+#frame ul span {
+	font-style:italic;
+}
+#frame ol {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+}
+#frame .split {
+	clear:both;
+}
+#frame a {
+	color:#b8822a;
+	text-decoration:none;
+}
+#frame a:hover {
+	text-decoration:underline;
+}
+
+#menu {
+	width:820px;
+	margin-left:40px;
+	_margin-left:20px;
+	margin-top:258px;
+	position:absolute;
+	color:#FFFFFF;
+}
+#menu .nav {  
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#menu .nav li {
+	margin-left:20px;
+	float:left;
+}
+#menu .nav li a {
+	display:block;
+	width:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+#menu .nav li a:hover {
+	color:#b8822a;
+}
+
+#submenu {
+	height:35px;
+	background-image:url(../images/submenu.jpg);
+	margin-top:10px;
+	padding:0 10px;
+	line-height:35px;
+}
+#submenu .nav {  
+	list-style:none;
+	margin:0;
+	padding-left:150px;
+}
+#submenu .nav li {
+	float:left;
+	padding-right:25px;
+	
+}
+#submenu .nav li a {
+	display:block;
+	width:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#submenu .nav li a img
+{
+	padding:0;
+}
+#submenu .nav li a:hover {
+	color:#b8822a;
+}
+
+#more {
+	width:222px;
+	height:92px;
+	margin:40px;
+	position:absolute;
+}
+/* adding css styles for new changes */
+#menu .nav li 
+{
+	margin:0;
+	padding:0;
+}
+#menu .nav
+{
+}
+#menu .nav li
+{
+	float:left;
+	margin-left:3px;
+}
+#menu .nav li a:link, #menu .nav li a:visited
+{
+	background-image:url(../images/normal-menu.png);
+	background-repeat:repeat-x;
+	padding:12px 7px 12px 6px;
+	font-size:13px;	
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	font-weight:normal !important;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#menu .nav li a:hover, #menu .nav li a.active
+{
+	background-image:url(../images/menu-hover.png);
+	background-repeat:repeat-x;
+	color:#FFF;
+	text-decoration:none;
+}
+#menu .nav li.noborder
+{
+	margin-left:0;
+}
+#header
+{
+	position:relative;
+}
+#menu 
+{
+    color: #FFFFFF;
+    left: 53px;
+    overflow: hidden;
+    position: absolute;
+    top: 244px;
+    width: 800px;
+	margin:0;
+}
+li.img img
+{
+	vertical-align:middle;
+}
+#submenu .nav
+{
+}
+a
+{
+	outline:none;
+}
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+
+.clearfix {
+  zoom: 1;
+}
+#frame .sidebar
+{
+	float:left;
+	width:145px;
+		
+}
+#frame .sidebar h3
+{
+	color:#FFF;
+	text-transform:uppercase;
+	margin:0;
+	padding-bottom:15px;
+	font-size:17px;	
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+}
+#frame .sidebar ul
+{
+	padding:0;
+	margin:0;
+}
+#frame .sidebar ul li a:link, #frame .sidebar ul li a:visited
+{
+	display:block;
+	/*height:30px;*/
+	min-height:30px;
+	color:#FFF;	
+	border:solid 1px #FFFFFF;
+	/*line-height:30px;*/
+	line-height:30px;
+	padding:0 5px;
+	background-color:#002100;
+}
+#frame .sidebar ul li a:hover, #frame .sidebar ul li a.active{
+	background-color:#1f4a41;
+	text-decoration:none;
+}
+#frame .layout-content
+{
+	width:650px;
+	float:right;
+}
+#frame .layout-content img.home
+{
+	width:100%;
+	padding:0;
+}
+#frame .text-container
+{
+	min-height:185px;
+	border:1px solid #3D685F;
+	padding:15px;
+}
+#frame .col1
+{
+	float: left;
+    height: auto;
+    width: 228px;
+}
+
+
+.last_item{
+	height: 60px;
+  line-height: 16px;
+}
